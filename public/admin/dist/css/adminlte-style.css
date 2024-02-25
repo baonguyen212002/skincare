@@ -1,0 +1,40 @@
+.my-checkbox {
+    width: 17px;
+    height: 17px;
+    min-height: inherit;
+    padding: 0px;
+    margin: auto;
+}
+
+.card-body.p-0 .table tbody>tr>td:first-of-type,
+.card-body.p-0 .table tbody>tr>th:first-of-type,
+.card-body.p-0 .table tfoot>tr>td:first-of-type,
+.card-body.p-0 .table tfoot>tr>th:first-of-type,
+.card-body.p-0 .table thead>tr>td:first-of-type,
+.card-body.p-0 .table thead>tr>th:first-of-type {
+    padding: 12px;
+}
+
+.custom-control {
+    position: relative;
+    display: block;
+    min-height: 1.5rem;
+    padding-left: 1.5rem;
+}
+.image-preview{
+    position: relative;
+    margin: 5px;
+}
+
+#imageContainer{
+    border: 1px solid #ccc;
+}
+.remove-button {
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    color: red;
+    font-weight: bold;
+}
